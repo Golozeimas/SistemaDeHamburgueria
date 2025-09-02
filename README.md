@@ -24,11 +24,17 @@ O objetivo do projeto é simular a experiência de escolher lanches, adicionar a
 ## 📂 Estrutura do Projeto
 
 ├── index.html # Página principal
+
 ├── /css
+
 │ └── tailwind.css # Arquivo do Tailwind (ou import via CDN)
+
 ├── /js
+
 │ └── script.js # Funcionalidades em JavaScript
+
 └── /img
+
 └── ... # Imagens dos hambúrgueres e ícones
 
 yaml
