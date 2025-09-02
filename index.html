@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/Styles/output.css">
+    
+    
+    <title>Melhor hambúrguer para dev</title>
+</head>
+<body>
+        <!--Header -->
+            <header class = "w-full h-96 bg-black bg-bug bg-cover bg-center">
+                 <div class = "w-full h-full flex flex-col justify-center items-center"> 
+                    <img
+                        src="./Assets/dev burger c.png"
+                        alt="Logo dev burger"
+                        class="h-44 w-44 rounded-full shadow-lg hover:scale-110 duration-200"
+                    />
+                        <h1 class = "text-4xl mt-4 mb-2 text-white font-bold text-center">
+                            DevBurger
+                        </h1>
+                        
+                        <span class="text-white font-medium">Rua Myrian Eduardo Pereira, Teresina - PI</span>
+
+                        <div class="bg-green-500 px-4 py-1 rounded-lg mt-5" id="date-pam">
+                        
+                        <span> <div class ="font-bold text-white">Aberto Seg á Dom das 18:00 até 23:00</span>
+                        </div>
+
+                 </div>
+            </header>
+
+        <!-- FIM Header-->
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-9 mt-6">
+                  Conheça nosso cardápio:  
+                </h2>
+
+        <!--Inicio menu-->
+                <div id="menu">
+
+            <main class="grid grid-cols-1 md:grid-cols-2 gap-7 md:gap-10 mx-auto max-w-7xl px-2 mb-16">
+                         <!--Inicio produto-->   
+      <div class="flex gap-2">
+
+          <img 
+          src="./Assets/hamb-1.png" 
+          alt="hamburguer 1"
+          class="h-28 w-28 rounded-md hover:scale-110 duration-200 hover:rotate-2"
+          >
+          <div>
+
+              <p class="font-bold">Hambúrguer C#</p>
+              <p class="font-semibold text-sm">Dois hambúrgueres (carne 100% bovina), queijo processado sabor cheddar, picles, cebola picada, ketchup, mostarda e pão com gergelim.Uma explosão de sabor</p>
+          </div>
+            <div class="flex items-center gap-2 justify-between mt-5 py-4"
+              data-name = "Hambúrguer C#"
+              data-price = "R$ 19,00"                           
+            >
+              <p class="font-bold text-lg">R$ 19,00</p>
+              <button class="bg-black px-6 py-1 rounded-md add-to-cart-btn">
+                                                      
+                  <i class="fa fa-cart-plus text-lg text-white"></i>
+              </button>
+            </div>
+      </div>
+        <!--Fim produto-->
+        <div class="flex gap-2">
+
+            <img 
+            src="./Assets/hamb-2.png" 
+            alt="hamburguer 2"
+            class="h-28 w-28 rounded-md hover:scale-110 duration-200 hover:rotate-2"
+            >
+            <div>
+
+                <p class="font-bold">Hambúrguer Java</p>
+                <p class="font-semibold text-sm">Dois hambúrgueres (100% carne bovina), queijo cheddar, cebola, fatias de bacon, ketchup, mostarda e pão com gergelim</p>
+            </div>
+              <div class="flex items-center gap-2 justify-between mt-5 py-4"
+                data-name = "Hambúrguer Java"
+                data-price = "R$ 20,00 "                           
+              >
+                <p class="font-bold text-lg">R$ 20,00</p>
+                <button class="bg-black px-6 py-1 rounded-md add-to-cart-btn">
+                                                        
+                    <i class="fa fa-cart-plus text-lg text-white"></i>
+                </button>
+              </div>
+        </div>
+                          <!--P3-->
+            <div class="flex gap-2">
+
+              <img 
+              src="./Assets/hamb-3.png" 
+              alt="hamburguer 3"
+              class="h-28 w-28 rounded-md hover:scale-110 duration-200 hover:rotate-2"
+              >
+              <div>
+
+                  <p class="font-bold">Hambúrguer Java Scrypt</p>
+                  <p class="font-semibold text-sm">Dois hambúrgueres (100% carne bovina), alface americana, queijo processado sabor cheddar, molho especial, cebola, picles e pão com gergelim.</p>
+              </div>
+                <div class="flex items-center gap-2 justify-between mt-5 py-4"
+                  data-name = "Hambúrguer Java Scrypt"
+                  data-price = "R$ 21,00 "                           
+                >
+                  <p class="font-bold text-lg">R$ 21,00</p>
+                  <button class="bg-black px-6 py-1 rounded-md add-to-cart-btn">
+                                                          
+                      <i class="fa fa-cart-plus text-lg text-white"></i>
+                  </button>
+                </div>
+          </div>
+                    
+              <div class="flex gap-2">
+
+                <img 
+                src="./Assets/hamb-4.png" 
+                alt="hamburguer 4"
+                class="h-28 w-28 rounded-md hover:scale-110 duration-200 hover:rotate-2"
+                >
+                <div>
+
+                    <p class="font-bold">Hambúrguer Python</p>
+                    <p class="font-semibold text-sm">Frango empanado, maionese, bacon, alface americana e pão com gergelim.</p>
+                </div>
+                  <div class="flex items-center gap-2 justify-between mt-5 py-4"
+                    data-name = "Hambúrguer Python"
+                    data-price = "R$ 23,50"                           
+                  >
+                    <p class="font-bold text-lg">R$ 23,50</p>
+                    <button class="bg-black px-6 py-1 rounded-md add-to-cart-btn">
+                                                            
+                        <i class="fa fa-cart-plus text-lg text-white"></i>
+                    </button>
+                  </div>
+            </div>
+             
+                    </main>
+
+                  <div class = "mx-auto max-w-7xl px-2 my-2">
+                    <h2 class = "font-bold text-3xl md:text-4xl text-center">
+                        Bebidas:
+                    </h2>
+                  </div>
+                  <!--GRiD Bebidas-->
+                  <div class="grid grid-cols-1 md:grid-cols-2 gap-7 md:gap-10 mx-auto max-w-7xl px-2 mb-16" id="menu">
+                    
+                    <div class="flex gap-2 w-full">
+
+                      <img 
+                      src="./Assets/refri-1.png" 
+                      alt="Coca cola"
+                      class="h-28 w-28 rounded-md hover:scale-110 duration-200 hover:rotate-2"
+                      >
+                      <div class="w-full">
+      
+                          <p class="font-bold">Coca Cola</p>
+                          <p class="font-semibold text-sm">Coca Cola de 350ml</p>
+                      </div>
+                        <div class="flex items-center gap-2 justify-between mt-5 py-4"
+                          data-name = "Coca cola"
+                          data-price = "R$ 8,00"                           
+                        >
+                          <p class="font-bold text-lg">R$ 8,00</p>
+                          <button class="bg-black px-6 py-1 rounded-md add-to-cart-btn">
+                                                                  
+                              <i class="fa fa-cart-plus text-lg text-white"></i>
+                          </button>
+                        </div>
+                  </div>
+                  <div class="flex gap-2 w-full">
+
+                    <img 
+                    src="./Assets/refri-2.png" 
+                    alt="Guaraná"
+                    class="h-28 w-28 rounded-md hover:scale-110 duration-200 hover:rotate-2"
+                    >
+                    <div class="w-full">
+    
+                        <p class="font-bold">Guaraná</p>
+                        <p class="font-semibold text-sm">Guaraná de 350ml</p>
+                    </div>
+                      <div class="flex items-center gap-2 justify-between mt-5 py-4"
+                        data-name = "Guaraná"
+                        data-price = "R$ 7,50"                           
+                      >
+                        <p class="font-bold text-lg">R$ 7,50</p>
+                        <button class="bg-black px-6 py-1 rounded-md add-to-cart-btn">
+                                                                
+                            <i class="fa fa-cart-plus text-lg text-white"></i>
+                        </button>
+                      </div>
+                </div>
+
+                  </div>
+
+                  <!--FIm GRiD Bebidas-->
+
+                </div>
+        <!--fim menu-->
+</body>
+</html>
